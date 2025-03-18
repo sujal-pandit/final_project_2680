@@ -1,69 +1,47 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #140005;
-    color: white;
-    text-align: center;
-    font-family: fantasy;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #140005;
+  color: white;
+  text-align: center;
+  font-family: fantasy;
 }
 
-h1{
-    text-align: center;
-    background-color: #603F8B;
-    padding: 20px;
-    color: white;
+h1 {
+  text-align: center;
+  background-color: #603f8b;
+  padding: 20px;
+  color: white;
 }
 
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
 
-p{
-    font-size: 20px;
+p {
+  font-size: 20px;
 }
 
-table{
-    width: 80%;
-    margin: auto;
+.home {
+  color: #b4fee7;
+  padding-right: 150px;
+  display: inline-block;
 }
 
-table,th,td{
-    border: 2px solid white;
-    border-collapse: collapse;
+.timeblock {
+  color: #fd49a0;
+  padding-left: 150px;
+  display: inline-block;
 }
 
-th{
-    padding: 20px;
+#addTimeBlock {
+  border-radius: 35%;
+  width: 45px;
+  height: 45px;
+  font-size: 35px;
+  margin: auto;
 }
 
-.taskarea{
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    margin: 5px;
-    width: 80%;
-}
-
-.timearea{
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    margin: 5px;
-    width: 40%;
-}
-
-input[type="checkbox"]{
-    transform: scale(1.5);
-}
-
-.home{
-    color: #b4fee7;
-    padding-right: 150px;
-    display: inline-block;
-}
-
-.timeblock{
-    color: #fd49a0;
-    padding-left: 150px;
-    display: inline-block;
+.timeCards {
+  margin: 10px;
 }
