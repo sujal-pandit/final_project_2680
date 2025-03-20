@@ -42,6 +42,58 @@ p {
   margin: auto;
 }
 
+.DoneBtn {
+  border-radius: 40%;
+  width: 80px;
+  height: 45px;
+  padding: 3px;
+  font-size: 20px;
+}
+.DoneBtn:hover {
+  transition: 0.5s;
+  background-color: #603f8b;
+  color: white;
+}
+
+.inputTime {
+  border-radius: 26%;
+  padding: 4px;
+  margin: 5px;
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.timeSetUp {
+  border-radius: 26%;
+  padding: 4px;
+  margin: 5px;
+  height: 35px;
+}
+
+.DeleteBtn {
+  position: relative;
+  top: 18px;
+  margin-left: 10px;
+  border-radius: 40%;
+  width: 80px;
+  height: 45px;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.DeleteBtn:hover {
+  transition: 0.5s;
+  background-color: #603f8b;
+  color: white;
+}
+
 .timeCards {
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.inputParaTime {
+  margin: 20px;
+  font-size: 35px;
 }

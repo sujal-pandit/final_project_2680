@@ -14,10 +14,11 @@ function elemntAdder() {
     para.classList.add(`Time${index}`);
     para.classList.add("timeCards");
     para.setAttribute("id", `timeBlock${index}`);
-    if (timing.isDone == false) {
-      para.innerHTML = `<input type='text' id=timeInput${index}> <input type='time' id=timeTime${index}> <button class='DoneBtn' onclick='paraAdder(${index})' id=doneFn${index}>Done</button> `;
+    if (timing == null) {
+    } else if (timing.isDone == false) {
+      para.innerHTML = `<input type='text' class='inputTime' id=timeInput${index}> <input type='time' class='timeSetUp' id=timeTime${index}> <button class='DoneBtn' onclick='paraAdder(${index})' id=doneFn${index}>Done</button> `;
     } else {
-      para.innerHTML = `<p>${timing.text} ${timing.time}</p> `;
+      para.innerHTML = `<div class='inputParaTime'>${timing.text}</div><div class='inputParaTime'> ${timing.time}</div><div> <button class='DeleteBtn' onclick='paraDeleter(${index})' id=deleteFn${index}>Delete</button> </div>`;
     }
     container.appendChild(para);
   });
@@ -31,5 +32,10 @@ function paraAdder(id) {
   timeArr[id] = { text: textVal, time: timeVal, isDone: true };
   console.log(timeVal);
   console.log(textVal);
+  elemntAdder();
+}
+
+function paraDeleter(id) {
+  timeArr[id] = null;
   elemntAdder();
 }
