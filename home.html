@@ -5,32 +5,153 @@
   </head>
 
   <body>
-    <h1><img src="images/logo.png" height="30px" width="30px" /> FlowBlocks</h1>
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: lightskyblue;
+        padding: 5px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 20px;
+          margin-top: 5px;
+        "
+      >
+        <img
+          style="border-radius: 50%; margin-top: 10px; margin-bottom: 0"
+          src="images/logo.png"
+          height="40px"
+          width="40px"
+        />
+        <h1>FlowBlocks</h1>
+      </div>
+      <div style="display: flex; text-align: center">
+        <a href="timeblock.html" class="homeItems">Time Block Page </a>
+        <a href="index.html" class="homeItems">Time Table Page</a>
+      </div>
+    </div>
 
-    <a href="timeblock.html" class="timeblock">Time Block Page </a>
-    <a href="index.html" class="timetable">Time Table Page</a>
+    <hr style="margin-top: 0" />
+    <div style="margin-bottom: 25px">
+      <h2 style="font-size: 45px; font-weight: bold">Welcome to FlowBlocks</h2>
+      <p style="font-size: 30px">
+        Boost your productivity and achieve your goals with our powerful time
+        management tool
+      </p>
+      <img
+        src="images/time_management.png"
+        width="700px"
+        height="500px"
+        class="intro_image"
+      />
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+        "
+      >
+        <div>
+          <a href="timeblock.html"
+            ><button class="homePageBtn" id="TimeBlockingHome">
+              Start Time Blocking
+            </button></a
+          >
+        </div>
+        <div>
+          <a href="index.html"
+            ><button
+              class="homePageBtn timeTableHome"
+              id="timeTableHome"
+              style="border: black 1px solid"
+            >
+              Create a Time Table
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
 
-    <hr />
+    <div style="margin-top: 100px">
+      <h2 style="font-size: 45px; font-weight: bold">
+        Why Choose Time Blocking?
+      </h2>
+      <div style="display: flex;justify-content: center;gap: 15px; flex-wrap: wrap;">
+        <div class="timeCards">
+          <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="blue"><path d="m627-287 45-45-159-160v-201h-60v225l174 181ZM480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-82 31.5-155t86-127.5Q252-817 325-848.5T480-880q82 0 155 31.5t127.5 86Q817-708 848.5-635T880-480q0 82-31.5 155t-86 127.5Q708-143 635-111.5T480-80Zm0-400Zm0 340q140 0 240-100t100-240q0-140-100-240T480-820q-140 0-240 100T140-480q0 140 100 240t240 100Z"/></svg>
+        <h3>Increased Focus</h3>
+        <p>Dedicate Specific Time Blocks to tasks, minimizing distractions and improving concentration</p>
+        </div>
+        <div class="timeCards">
+          <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="blue"><path d="M180-80q-24 0-42-18t-18-42v-620q0-24 18-42t42-18h65v-60h65v60h340v-60h65v60h65q24 0 42 18t18 42v620q0 24-18 42t-42 18H180Zm0-60h600v-430H180v430Zm0-490h600v-130H180v130Zm0 0v-130 130Z"/></svg>
+          <h3>Better Time Management</h3>
+        <p>Visualize your day and allocate time efficienctly, ensuring important tasks are prioritized</p>
+        </div>
+        <div class="timeCards">
+          <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="blue"><path d="M480-80q-85 0-158-30.5T195-195q-54-54-84.5-127T80-480q0-84 30.5-157T195-764q54-54 127-85t158-31q75 0 140 24t117 66l-43 43q-44-35-98-54t-116-19q-145 0-242.5 97.5T140-480q0 145 97.5 242.5T480-140q145 0 242.5-97.5T820-480q0-30-4.5-58.5T802-594l46-46q16 37 24 77t8 83q0 85-31 158t-85 127q-54 54-127 84.5T480-80Zm-59-218L256-464l45-45 120 120 414-414 46 45-460 460Z"/></svg>
+        <h3>Increased Productivity</h3>
+        <p>Accomplish more in less time by structuring your day and reducing time waste</p>
+        </div>
+      </div>
+    </div>
 
-    <img
+    <div style="margin-top: 100px;">
+      <h2 style="font-size: 45px; font-weight: bold">
+       How It Works
+      </h2>
+      <div style="display: flex; justify-content: center;align-items: center;">
+        <div style="text-align: left; font-size: 23px;max-width: 600px;">
+          <li style="display: block;">
+            <ol>
+              <li>Enter your tasks and their estimated durations</li>
+              <li>Set priorities for each task</li>
+              <li>Specify your available working hours</li>
+              <li>Generate an optimized schedule</li>
+              <li>Follow your personalized timeblock for maximum productivity</li>
+            </ol>
+          </li>
+        </div>
+        <div>
+          <img
+      src="images/time.jpg"
+      width="400px"
+      height="400px"
+      class="time_images"
+    /></div>
+      </div>
+    </div>
+    
+    <div style="margin-top: 100px;">
+      <h2 style="font-size: 45px; font-weight: bold">
+       What our users say
+      </h2>
+      <div style="display: flex;justify-content: center;gap: 15px; flex-wrap: wrap;">
+        <div class="reviewCards">
+          <img src="./images/grayBackground.png" alt="">
+        <h3>"Tim</h3>
+        <p>Dedicate Specific Time Blocks to tasks, minimizing distractions and improving concentration</p>
+        </div>
+        <div class="reviewCards">
+          <img src="./images/grayBackground.png" alt="">
+
+          <h3>Better Time Management</h3>
+        <p>Visualize your day and allocate time efficienctly, ensuring important tasks are prioritized</p>
+        </div>
+    </div>
+<img
       src="images/time_challenges.webp"
       width="300px"
       height="250px"
-      class="time_images"
+      class="intro_image"
     />
-    <img
-      src="images/time_management.png"
-      width="300px"
-      height="250px"
-      class="time_images"
-    />
-    <img
-      src="images/time.jpg"
-      width="300px"
-      height="250px"
-      class="time_images"
-    />
-    <br />
+    
     <div class="intro">
       Time management can be a difficult task and with modern times demanding us
       to be<br />
