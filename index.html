@@ -2,19 +2,45 @@
 
 <head>
     <title>TimeTable</title>
-    <link rel="stylesheet" href="styles_timetable.css">
+        <link rel="stylesheet" href="styles_home.css" />
+
 </head>
 
 <body>
-    <h1>
-        <img src="images/logo.png" height="30px" width="30px"> FlowBlocks
-    </h1>
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: lightskyblue;
+        padding: 5px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 20px;
+          margin-top: 5px;
+        "
+      >
+        <img
+          style="border-radius: 50%; margin-top: 10px; margin-bottom: 0"
+          src="images/logo.png"
+          height="40px"
+          width="40px"
+        />
+        <h1>FlowBlocks</h1>
+      </div>
+      <div style="display: flex; text-align: center">
+        <a href="home.html" class="homeItems">Home </a>
+        <a href="timeblock.html" class="homeItems">Time Block Page </a>
+        <a href="index.html" class="homeItems">Time Table Page</a>
+      </div>
+    </div>
 
-    <a href="home.html" class="home">Home Page </a>
-    <a href="timeblock.html" class="timeblock">Time Block Page</a>
-    <h3>TIMETABLE</h3>
-
-    <p>Create your Time Table here: <br>
+    <p style="font-size: 30px;">Create your Time Table here: <br>
         What do you plan on scheduling today?</p>
 
     <div>
@@ -23,6 +49,19 @@
     <div id="TimeBlockAdder">
                
     </div>
+    <footer
+      style="
+        background-color: #c0c0c0;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+      "
+      class="timeTableFooter"
+    >
+      <div style="margin-bottom: 5px">
+        @2025 FlowBlocks. All rights reserved
+      </div>
     <script src="./script.js"></script>
 </body>
 

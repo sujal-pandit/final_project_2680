@@ -22,11 +22,9 @@ function elemntAdder() {
     }
     container.appendChild(para);
   });
-  console.log(container);
 }
 
 function paraAdder(id) {
-  console.log("HELLO");
   let textVal = document.getElementById(`timeInput${id}`).value;
   let timeVal = document.getElementById(`timeTime${id}`).value;
   timeArr[id] = { text: textVal, time: timeVal, isDone: true };
