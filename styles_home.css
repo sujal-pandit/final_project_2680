@@ -194,7 +194,6 @@ li {
 
 .heroSec {
   background-image: url("./images/heroImg.jpeg");
-  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
