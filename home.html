@@ -37,21 +37,27 @@
       </div>
       <div style="display: flex; text-align: center">
         <a href="home.html" class="homeItems">Home </a>
-        <a href="timeblock.html" class="homeItems">Time Block Page </a>
-        <a href="index.html" class="homeItems">Time Table Page</a>
+        <a href="timeblock.html" class="homeItems">Random Tip </a>
+        <a href="index.html" class="homeItems">Time Table</a>
+        <a href="ContactUs.html" class="homeItems">Contact Us</a>
       </div>
     </div>
 
-    <hr style="margin-top: 0" />
-    <div style="margin-bottom: 25px">
-      <h2 style="font-size: 45px; font-weight: bold">Welcome to FlowBlocks</h2>
+    <hr style="margin-top: 0; margin-bottom: 0" />
+    <div
+      style="margin-bottom: 25px; padding-top: 25px; padding-bottom: 25px"
+      class="heroSec"
+    >
+      <h2 style="font-size: 45px; font-weight: bold; margin-top: 0">
+        Welcome to FlowBlocks
+      </h2>
       <p style="font-size: 30px">
         Boost your productivity and achieve your goals with our powerful time
         management tool
       </p>
       <img
-        src="images/time_management.png"
-        width="700px"
+        src="images/HomePageImg.png"
+        width="550px"
         height="500px"
         class="intro_image"
       />
@@ -66,7 +72,7 @@
         <div>
           <a href="timeblock.html"
             ><button class="homePageBtn" id="TimeBlockingHome">
-              Start Time Blocking
+              Random Tip
             </button></a
           >
         </div>
@@ -155,25 +161,31 @@
 
     <div style="margin-top: 100px">
       <h2 style="font-size: 45px; font-weight: bold">How It Works</h2>
-      <div style="display: flex; justify-content: center; align-items: center">
-        <div style="text-align: left; font-size: 23px; max-width: 600px">
-          <ol style="display: block">
-            <li>Enter your tasks and their estimated durations</li>
-            <li>Set priorities for each task</li>
-            <li>Specify your available working hours</li>
-            <li>Generate an optimized schedule</li>
-            <li>Follow your personalized timeblock for maximum productivity</li>
-          </ol>
-        </div>
-        <div>
-          <img
-            src="images/time.jpg"
-            width="400px"
-            height="400px"
-            class="time_images"
-          />
-        </div>
-      </div>
+      <table style="margin: auto">
+        <tr>
+          <th style="padding-right: 35px">
+            <div style="text-align: left; font-size: 23px; max-width: 600px">
+              <ol style="display: block">
+                <li>Press the plus icon</li>
+                <li>Enter your tasks and their start time</li>
+                <li>Click Done</li>
+                <li>Time Table gets saved</li>
+                <li>Click the delete button after the work is completed.</li>
+              </ol>
+            </div>
+          </th>
+          <th>
+            <div>
+              <video
+                src="./images/tipsVideo.mov"
+                width="400px"
+                height="200px"
+                controls
+              ></video>
+            </div>
+          </th>
+        </tr>
+      </table>
     </div>
 
     <div style="margin-top: 100px">
@@ -211,9 +223,9 @@
         Ready to Boost your productivity?
       </h2>
       <p style="font-size: 20px; margin-bottom: 25px">
-        Start using time blocking planner today and take control of your time
+        Start using time management planner today and take control of your time
       </p>
-      <a href="timeblock.html"
+      <a href="index.html"
         ><button class="homePageBtn" id="TimeBlockingHome">
           Get Started Now
         </button></a
