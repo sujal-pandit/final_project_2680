@@ -213,6 +213,12 @@ li {
 }
 
 #Tip {
+  margin: auto;
+  margin-top: 50px;
+
+  width: 70%;
+  padding: 25px;
+  border: 1px solid black;
   font-size: 35px;
   font-weight: bolder;
 }
